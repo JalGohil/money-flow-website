@@ -33,10 +33,19 @@
     }
 
     .logo {
-      font-size: 25px;
-      font-weight: 800;
-      color: #078BF0;
-    }
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  font-weight: 800;
+  color: #078BF0;
+}
+
+.logo img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
 
     nav a {
       text-decoration: none;
@@ -186,7 +195,7 @@
 <body>
 
   <header>
-    <div class="logo">💙 Money Flow</div>
+    <div class="logo">   <img src="money-flow-logo.png" alt="Money Flow Logo">   Money Flow </div>
 
     <nav>
       <a href="#features">Features</a>
